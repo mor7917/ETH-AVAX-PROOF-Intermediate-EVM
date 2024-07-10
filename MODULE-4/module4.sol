@@ -14,7 +14,7 @@ pragma solidity ^0.8.18;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract CarShop is ERC20, Ownable(msg.sender) {
+contract DegenToken is ERC20, Ownable(msg.sender) {
    
     struct store {
         uint256 id;
