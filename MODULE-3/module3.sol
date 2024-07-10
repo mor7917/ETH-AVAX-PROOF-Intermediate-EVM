@@ -46,6 +46,4 @@ contract Transaction {
         totalSupply -= value;
         return true;
     }
-
-
 }
